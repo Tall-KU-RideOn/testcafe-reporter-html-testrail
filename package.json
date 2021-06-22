@@ -1,15 +1,18 @@
 {
   "name": "testcafe-reporter-html-testrail",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "HTML Testrail TestCafe reporter plugin.",
-  "repository": "https://github.com/sandorengholm/testcafe-reporter-html-testrail",
+  "repository": "https://github.com/norlys-saneng/testcafe-reporter-html-testrail",
   "author": {
     "name": "Sandor Engholm",
     "email": "saneng@norlys.dk"
   },
   "main": "lib/index",
   "files": [
-    "lib"
+    "lib",
+    "LICENSE",
+    "README.md",
+    "package.json"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\"",
