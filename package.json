@@ -1,6 +1,6 @@
 {
   "name": "@norlys/testcafe-reporter-html-testrail",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "HTML Testrail TestCafe reporter plugin.",
   "repository": "https://github.com/norlys-saneng/testcafe-reporter-html-testrail",
   "author": {
