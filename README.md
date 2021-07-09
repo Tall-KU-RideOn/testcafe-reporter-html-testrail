@@ -17,7 +17,6 @@ When you run tests from the command line, specify the reporter name by using the
 testcafe chrome 'path/to/test/file.js' --reporter html-testrail-2
 ```
 
-
 When you use API, pass the reporter name to the `reporter()` method:
 
 ```js
