@@ -1,6 +1,6 @@
 {
   "name": "testcafe-reporter-html-testrail-2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "HTML Testrail TestCafe reporter plugin.",
   "repository": "https://github.com/norlys-saneng/testcafe-reporter-html-testrail",
   "author": {
@@ -27,6 +27,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "dotenv": "^10.0.0",
     "publish-please": "^5.5.2"
   },
   "dependencies": {
