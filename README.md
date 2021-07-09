@@ -1,15 +1,12 @@
-# testcafe-reporter-html-testrail
+# testcafe-reporter-html-testrail-extended
 
-This is the **html-testrail** reporter plugin for [TestCafe](http://devexpress.github.io/testcafe).
-
-<p align="center">
-    <img src="https://raw.githubusercontent.com/miteshsavani/HTML-TestRail/master/media/Console_Output.jpg" alt="preview" />
-</p>
+This is the **html-testrail-extended** reporter plugin for [TestCafe](http://devexpress.github.io/testcafe).
 
 ## Install
 
 ```
-npm install testcafe-reporter-html-testrail
+npm install -D testcafe-reporter-html-testrail-extended
+yarn add -D testcafe-reporter-html-testrail-extended
 ```
 
 ## Usage
@@ -17,7 +14,7 @@ npm install testcafe-reporter-html-testrail
 When you run tests from the command line, specify the reporter name by using the `--reporter` option:
 
 ```
-testcafe chrome 'path/to/test/file.js' --reporter html-testrail
+testcafe chrome 'path/to/test/file.js' --reporter html-testrail-extended
 ```
 
 
@@ -28,7 +25,7 @@ testCafe
     .createRunner()
     .src('path/to/test/file.js')
     .browsers('chrome')
-    .reporter('html-testrail') // <-
+    .reporter('html-testrail-extended') // <-
     .run();
 ```
 
@@ -40,15 +37,9 @@ HTML_REPORT_PATH : set the report output folder | default: Node_modules's (in wh
 HTML_REPORT_Name : set the report name | default: Report_TIMESTAMP.html (e.g.: Report_16_5_2018_14_46_46.html)
 ```
 
-##### Sample Report
-
-<p align="center">
-    <img src="https://raw.github.com/miteshsavani/HTML-TestRail/master/media/HTML_Output.jpg" alt="preview" />
-</p>
-
 #### For Testrail publish
 
-Before using Testrail publisher, You need to set test description in `specific format` as per bleow.
+Before using Testrail publisher, You need to set test description in `specific format` as per below.
 
 ##### Format:
 
@@ -69,16 +60,17 @@ test('Smoke | Verify the Login Page | C875986 ', async t=> { ... });
 ##### Environment Variables
 ```
 TESTRAIL_ENABLE : set true to enable Testrail api | default: false
-TESTRAIL_HOST : https://mitesh.testrail.com/ 
+TESTRAIL_HOST : the url to your testrail api
 TESTRAIL_USER : username
 TESTRAIL_PASS : password or api key
 PROJECT_NAME : project name
 PLAN_NAME : plan name | default: TestAutomation_1
+SUITE_ID : suite id | default: the id of the first suite found
 ```
 `Note:` If you do not specify the ``PLAN_NANE`` then plugin will create `TestAutomation_1` plan name (if not exist) in the given Project  
 
 ## Author
-Mitesh Savani (https://github.com/miteshsavani)
+Sandor Engholm (https://github.com/sandorengholm)
 
 
  
