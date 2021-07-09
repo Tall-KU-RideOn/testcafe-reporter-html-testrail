@@ -1,12 +1,12 @@
-# testcafe-reporter-html-testrail-extended
+# testcafe-reporter-html-testrail-2
 
-This is the **html-testrail-extended** reporter plugin for [TestCafe](http://devexpress.github.io/testcafe).
+This is the **html-testrail-2** reporter plugin for [TestCafe](http://devexpress.github.io/testcafe).
 
 ## Install
 
 ```
-npm install -D testcafe-reporter-html-testrail-extended
-yarn add -D testcafe-reporter-html-testrail-extended
+npm install -D testcafe-reporter-html-testrail-2
+yarn add -D testcafe-reporter-html-testrail-2
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ yarn add -D testcafe-reporter-html-testrail-extended
 When you run tests from the command line, specify the reporter name by using the `--reporter` option:
 
 ```
-testcafe chrome 'path/to/test/file.js' --reporter html-testrail-extended
+testcafe chrome 'path/to/test/file.js' --reporter html-testrail-2
 ```
 
 
@@ -25,7 +25,7 @@ testCafe
     .createRunner()
     .src('path/to/test/file.js')
     .browsers('chrome')
-    .reporter('html-testrail-extended') // <-
+    .reporter('html-testrail-2') // <-
     .run();
 ```
 
