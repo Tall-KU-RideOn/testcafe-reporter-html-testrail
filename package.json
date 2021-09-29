@@ -4,7 +4,7 @@
   "description": "HTML Testrail TestCafe reporter plugin.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tall-KU-RideOn/testcafe-reporter-html-testrail.git"
+    "url": "https://github.com/Tall-KU-RideOn/testcafe-reporter-html-testrail.git"
   },
   "author": "Tyler O'Neal <tyler.oneal@outlook.com>",
   "main": "lib/index",
