@@ -1,12 +1,12 @@
-# testcafe-reporter-html-testrail-2
+# testcafe-reporter-html-testrail-3
 
-This is the **html-testrail-2** reporter plugin for [TestCafe](http://devexpress.github.io/testcafe).
+This is the **html-testrail-3** reporter plugin for [TestCafe](http://devexpress.github.io/testcafe).
 
 ## Install
 
 ```
-npm install -D testcafe-reporter-html-testrail-2
-yarn add -D testcafe-reporter-html-testrail-2
+npm install -D testcafe-reporter-html-testrail-3
+yarn add -D testcafe-reporter-html-testrail-3
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ yarn add -D testcafe-reporter-html-testrail-2
 When you run tests from the command line, specify the reporter name by using the `--reporter` option:
 
 ```
-testcafe chrome 'path/to/test/file.js' --reporter html-testrail-2
+testcafe chrome 'path/to/test/file.js' --reporter html-testrail-3
 ```
 
 When you use API, pass the reporter name to the `reporter()` method:
@@ -24,7 +24,7 @@ testCafe
     .createRunner()
     .src('path/to/test/file.js')
     .browsers('chrome')
-    .reporter('html-testrail-2') // <-
+    .reporter('html-testrail-3') // <-
     .run();
 ```
 
@@ -69,7 +69,7 @@ SUITE_ID : suite id | default: the id of the first suite found
 `Note:` If you do not specify the ``PLAN_NANE`` then plugin will create `TestAutomation_1` plan name (if not exist) in the given Project  
 
 ## Author
-Sandor Engholm (https://github.com/sandorengholm)
+Tyler O'Neal (https://github.com/Tall-KU-RideOn)
 
 
  
