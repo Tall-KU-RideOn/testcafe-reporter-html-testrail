@@ -1,11 +1,11 @@
 {
-  "name": "testcafe-reporter-html-testrail-2",
-  "version": "1.0.4",
+  "name": "testcafe-reporter-html-testrail-3",
+  "version": "1.0.0",
   "description": "HTML Testrail TestCafe reporter plugin.",
-  "repository": "https://github.com/norlys-saneng/testcafe-reporter-html-testrail",
+  "repository": "https://github.com/Tall-KU-RideOn/testcafe-reporter-html-testrail",
   "author": {
-    "name": "Sandor Engholm",
-    "email": "saneng@norlys.dk"
+    "name": "Tyler O'Neal",
+    "email": "tyler.oneal@outlook.com"
   },
   "main": "lib/index",
   "files": [
